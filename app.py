@@ -50,4 +50,4 @@ def initialize_logging():
 if __name__ == '__main__':
     logger = None
     initialize_logging()
-    app.run(host='0.0.0.0', port=6405)
+    app.run(host='0.0.0.0', port=PORT)
