@@ -6,14 +6,14 @@ import logging
 app = Flask(__name__, static_url_path='/')
 
 ALLOWED_IPS = [
-    '156.218.173.66', # PERSONAL IP
-    '164.138.211.116', # Peter Server
-    '192.168.1.4'
+
 ]
 
 BLOCKED_IPS = [
-    ''
+
 ]
+
+PORT = 6405
 
 @app.before_request
 def limit_remote_addr():
